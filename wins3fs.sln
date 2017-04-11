@@ -11,11 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wins3fs-config", "wins3fs-c
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aws_key_for_config", "aws_key_for_config\aws_key_for_config.csproj", "{710D39B2-4DBA-4A95-9423-F4B23B48360A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readme", "Readme", "{D85BCF12-D326-4CCE-A486-17F51D5DC57C}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\SourceCode\CodePlex\wins3fs-src_0.1.5\src\readme.txt = ..\..\..\SourceCode\CodePlex\wins3fs-src_0.1.5\src\readme.txt
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
