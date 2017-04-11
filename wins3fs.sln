@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wins3fs", "wins3fs\wins3fs.csproj", "{750E6996-3C0D-49DF-8F00-45EA7A4BEC3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3FS", "S3FS\S3FS.csproj", "{A7379F09-2038-47A9-B08E-79F57E4EEE86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wins3fs-config", "wins3fs-config\wins3fs-config.csproj", "{7CDF9BF4-492B-4A8A-BA31-6D12E2AE4404}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aws_key_for_config", "aws_key_for_config\aws_key_for_config.csproj", "{710D39B2-4DBA-4A95-9423-F4B23B48360A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Readme", "Readme", "{D85BCF12-D326-4CCE-A486-17F51D5DC57C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\SourceCode\CodePlex\wins3fs-src_0.1.5\src\readme.txt = ..\..\..\SourceCode\CodePlex\wins3fs-src_0.1.5\src\readme.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{750E6996-3C0D-49DF-8F00-45EA7A4BEC3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{750E6996-3C0D-49DF-8F00-45EA7A4BEC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{750E6996-3C0D-49DF-8F00-45EA7A4BEC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{750E6996-3C0D-49DF-8F00-45EA7A4BEC3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7379F09-2038-47A9-B08E-79F57E4EEE86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7379F09-2038-47A9-B08E-79F57E4EEE86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7379F09-2038-47A9-B08E-79F57E4EEE86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7379F09-2038-47A9-B08E-79F57E4EEE86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CDF9BF4-492B-4A8A-BA31-6D12E2AE4404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CDF9BF4-492B-4A8A-BA31-6D12E2AE4404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CDF9BF4-492B-4A8A-BA31-6D12E2AE4404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CDF9BF4-492B-4A8A-BA31-6D12E2AE4404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{710D39B2-4DBA-4A95-9423-F4B23B48360A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{710D39B2-4DBA-4A95-9423-F4B23B48360A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{710D39B2-4DBA-4A95-9423-F4B23B48360A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{710D39B2-4DBA-4A95-9423-F4B23B48360A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
